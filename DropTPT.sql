@@ -1,0 +1,16 @@
+--ALTER TABLE Schedule ADD available_seats NUMBER;
+drop package "PIG"."PKG_TRANSPORT_MGMT";
+drop table "PIG"."PASSENGER" cascade CONSTRAINTS PURGE;
+drop table "PIG"."PAYMENT" cascade CONSTRAINTS PURGE;
+drop table "PIG"."SCHEDULE" cascade CONSTRAINTS PURGE;
+drop table "PIG"."TICKET" cascade CONSTRAINTS PURGE;
+drop table "PIG"."TRANSPORT_ROUTE" cascade CONSTRAINTS PURGE;
+drop table "PIG"."VEHICLE" cascade CONSTRAINTS PURGE;
+drop trigger "PIG"."TRG_PREVENT_DOUBLE_PAYMENT";
+drop trigger "PIG"."TRG_PREVENT_OVERBOOKING";
+drop trigger "PIG"."TRG_PREVENT_RECANCEL";
+drop trigger "PIG"."TRG_UPDATE_SEAT_ON_CANCEL";
+drop trigger "PIG"."TRG_VALIDATE_SEAT_NO";
+drop sequence "PIG"."PASSENGER_SEQ";
+drop sequence "PIG"."PAYMENT_SEQ";
+drop sequence "PIG"."TICKET_SEQ";
