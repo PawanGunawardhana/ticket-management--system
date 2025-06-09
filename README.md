@@ -1,6 +1,4 @@
-# ticket-management--system
-Public Transport Ticket Management System implementation with Oracle PL/SQL
-
+# ticket-management-system
 # Public Transport Ticket Management System implementation with Oracle PL/SQL
 
 Advanced Database Systems with Applications  
