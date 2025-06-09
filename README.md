@@ -24,4 +24,7 @@ To address these issues, the **Public Transport Ticket Management System** was d
 * The *Payment* table logs associated payments, enabling secure and trackable financial transactions.
 
 This ER-based structure facilitates real-time seat allocation, travel tracking, and booking status monitoring. Administrators can generate route-based or city-based analytics, monitor vehicle utilization, and enforce policies using database-level triggers and business logic.  
+
+![ER-diagram-CS-G10](https://github.com/user-attachments/assets/abc7d01d-11e5-4bca-b068-9b9808f83ad5)
+
 Our Public Transport Ticket Management System database has been deployed and is accessible using **Oracle SQL Developer**. You can connect to it live and explore the full schema, run queries, or test PL/SQL procedures. This makes it easy for testing, validation, and demonstration purposes.
