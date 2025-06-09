@@ -9,8 +9,9 @@ Assignment I Group ID : CS\_G10
 Group Members: 
 
 1. CS/2020/011 		Pawan Gunawardhana      
-2. CS/2020/033		Tharindu Damruwan    
-1. **Business Scenario**
+2. CS/2020/033		Tharindu Damruwan
+   
+ **Business Scenario**
 
 Sri Lanka’s public transport network, including both bus and railway services, is a backbone for the country's daily commuting. However, the current system largely relies on manual ticketing, paper logs, and static schedules, leading to several operational drawbacks such as overcrowding, ticket fraud, and lack of real-time service visibility.
 
